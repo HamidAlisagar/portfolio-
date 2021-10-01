@@ -1,13 +1,45 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "PoppinsLight";
+  src: local("PoppinsLight"),
+    url("./fonts/propins/Poppins-Light.ttf") format("truetype");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: local("PoppinsBold"),
+    url("./fonts/propins/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: local("PoppinsMedium"),
+    url("./fonts/propins/Poppins-Medium.ttf") format("truetype");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: local("PoppinsMedium"),
+    url("./fonts/propins/Poppins-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FreeStyle Script";
+  src: local("FreeStyle Script"),
+    url("./fonts/propins/FREESCPT.TTF") format("truetype");
+    
+
 }

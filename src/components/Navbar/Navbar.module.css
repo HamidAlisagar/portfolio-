@@ -1,0 +1,68 @@
+.navbarSection {
+  background-color: #0e0c38;
+  height: 137px;
+}
+.containerStyle {
+  position: relative;
+  max-width: 1749px;
+}
+.imgStyle img {
+  width: 590px;
+  height: 263px;
+}
+.imgStyle {
+  position: absolute;
+  top: 0;
+  left: 395px;
+}
+.navbarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 265px;
+  height: 137px;
+}
+
+.listStyle {
+  display: flex;
+  align-items: center;
+}
+.listStyle li {
+  font-family: PoppinsMedium, sans-serif;
+  list-style: none;
+}
+.listStyle li a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  transition: 0.2s ease;
+
+  padding: 50px 15px 20px;
+}
+.listStyle li a:hover {
+  background-color: #ff0513;
+}
+.listStyle li:last-child a:hover {
+  background-color: transparent;
+}
+.listStyle li a button {
+  padding: 20px 40px;
+  border-radius: 60px;
+  border: 2px solid white;
+  color: white;
+  font-family: PoppinsLight, sans-serif;
+  font-size: 22px;
+  background: transparent;
+}
+.listStyle li a button:hover {
+  background-color: white;
+  color: gray;
+  border: 2px solid gray;
+}
+
+@media screen {
+  
+}

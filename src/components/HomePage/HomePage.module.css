@@ -1,0 +1,109 @@
+.homeSection {
+  background-color: #0e0c38;
+}
+.homeWrapper {
+  display: flex;
+}
+.homeContent {
+  width: 50%;
+  position: relative;
+  z-index: 1;
+}
+.homeContent h6 {
+  color: white;
+  font-size: 41px;
+  margin-top: 150px;
+  font-family: PoppinsLight, sans-serif;
+}
+.homeContent p {
+  color: white;
+  font-size: 26px;
+  margin-top: 15px;
+  font-family: PoppinsLight, sans-serif;
+}
+.homeContent p span {
+  color: #ff0513;
+}
+.homeContent h1 {
+  color: white;
+  font-size: 150px;
+  font-family: PoppinsBold, sans-serif;
+  width: 100%;
+  margin-left: -10px;
+  line-height: 1.1;
+}
+.imgWrapper {
+  width: 50%;
+}
+.homeImage{
+    position: absolute;
+    top: 204px;
+    left: -280px;
+    z-index: -1;
+}
+.homeImage img{
+    width: 574px;
+    height: 547px;
+}
+.homeBtnStyle{
+    margin-top: 40px;
+}
+.homeBtnStyle .hireMe button{
+    padding: 30px 90px;
+    border-radius: 60px;
+    border: 2px solid white;
+   
+    color: white;
+    transition: 0.2s ease-in-out;
+    font-family: PoppinsMedium, sans-serif;
+    background: transparent;
+
+    font-size: 30px;
+
+}
+.hireMe button:hover{
+  background-color: #ff0513;
+  border: 2px solid #ff0513 ;
+}
+.homeBtnStyle a button {
+    transition: 0.2s ease-in-out;
+    padding: 30px 90px;
+    border-radius: 60px;
+    border: 2px solid white;
+    color: white;
+    font-family:  PoppinsMedium, sans-serif;
+    font-size: 30px;
+    background: transparent;
+    margin-right: 40px;
+  
+}
+.portfolioBtn button:hover{
+    background-color: white;
+    color: gray;
+   
+}
+.findme{
+margin-top: 30px;
+}
+
+.socialStyle{
+    display: flex;
+    margin-top: 10px;
+}
+.socialStyle li{
+    list-style: none;
+    padding:20px 40px 20px 0px ;
+
+}
+.socialStyle li a{
+    text-decoration: none;
+
+}
+.icons{
+  color:white;
+   font-size:3rem; 
+   transition: 0.3s ease-in-out;
+}
+.socialStyle .icons:hover {
+  color: #ff0513;
+}
